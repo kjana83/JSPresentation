@@ -3,6 +3,7 @@
               Reveal.initialize({
                 history: true,
 				keyboard: false,
+				controls:false,
               });
              
 			  var url=document.URL.split('/');

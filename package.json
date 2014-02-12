@@ -1,0 +1,24 @@
+{
+  "name": "JSPresentation",
+  "version": "1.0.0",
+  "description": "Online Presentation",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjana83/JSPresentation.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "912cd603baa0d80d307ab75bbb1a8b5cbf9d2e6e",
+  "bugs": {
+    "url": "https://github.com/kjana83/JSPresentation/issues"
+  }
+}

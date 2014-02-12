@@ -1,15 +1,10 @@
 (function(){
 
               Reveal.initialize({
-                history: true
+                history: true,
+				keyboard: false,
               });
-              document.addEventListener('keyup', function(event){
-			    event.preventDefault();
-			  });
-			  
-			  window.addEventListener('mouseup',function(event){
-			   event.preventDefault();
-			  });
+             
 			  var url=document.URL.split('/');
 				var host=url[0]+'//'+url[2];
               var socket = io.connect(host);

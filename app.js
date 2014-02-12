@@ -14,8 +14,8 @@ console.log(__dirname);
 	res.sendfile(__dirname + '/public/views/index.html');
 });
 
-app.get('/client',function(req,res){
-	res.sendfile(__dirname + '/public/views/client.html');
+app.get('/master',function(req,res){
+	res.sendfile(__dirname + '/public/views/master.html');
 });
 
 var server=http.createServer(app).listen(port,function(){

@@ -3,7 +3,7 @@
               Reveal.initialize({
                 history: true
               });
-              window.addEventListener( 'keyup', function(event){
+              document.addEventListener('keyup', function(event){
 			    event.preventDefault();
 			  });
 			  
